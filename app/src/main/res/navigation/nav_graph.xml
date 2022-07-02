@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/FirstFragment"
         android:label="@string/first_fragment_label"
-        android:name="com.example.fizzbuzzdidyoujustassumemynumber.FirstFragment"
+        android:name="com.example.fizzbuzzletmecounttothatnumber.ui.fragment.FirstFragment"
         tools:layout="@layout/fragment_first">
 
         <action
@@ -18,7 +18,7 @@
     <fragment
         android:id="@+id/SecondFragment"
         android:label="@string/second_fragment_label"
-        android:name="com.example.fizzbuzzdidyoujustassumemynumber.SecondFragment"
+        android:name="com.example.fizzbuzzletmecounttothatnumber.ui.fragment.SecondFragment"
         tools:layout="@layout/fragment_second">
 
         <action

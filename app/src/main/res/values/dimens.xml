@@ -1,3 +1,9 @@
 <resources>
-    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding_s">8dp</dimen>
+    <dimen name="margin_top_widget_l">32dp</dimen>
+    <dimen name="margin_top_widget_xl">54dp</dimen>
+    <dimen name="padding_bottom_xxl">54dp</dimen>
+    <dimen name="margin_top_bottom_s">8dp</dimen>
+    <dimen name="scrollable_fizz_buzz_recycler_height">300dp</dimen>
+    <dimen name="component_layout_height">100dp</dimen>
 </resources>
