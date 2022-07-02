@@ -1,10 +1,5 @@
-<menu tools:context="com.example.fizzbuzzdidyoujustassumemynumber.MainActivity"
+<menu tools:context="com.example.fizzbuzzdidyoujustassumemynumber.ui.activity.MainActivity"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
 </menu>

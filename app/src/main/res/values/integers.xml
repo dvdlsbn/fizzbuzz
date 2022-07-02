@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_length_textinput_6">6</integer>
+    <integer name="max_length_number_input_one">1</integer>
+<!--    <integer name="max_length_limit_input_three">3</integer>-->
+    <integer name="max_length_limit_input_three">7</integer>
+</resources>
+

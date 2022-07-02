@@ -1,28 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
-    tools:context=".FirstFragment"
+    tools:context=".ui.fragment.FirstFragment"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
     <TextView
-        android:id="@+id/textview_first"
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:layout_height="@dimen/component_layout_height"
+        android:layout_marginTop="@dimen/margin_top_widget_xl"
+        android:layout_width="wrap_content"
+        android:text="@string/explication"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout12"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout12"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/linearLayout12"
+        android:layout_height="@dimen/component_layout_height"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout11"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout11"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:gravity="center"
+            android:hint="@string/choose_first_int"
+            android:id="@+id/first_int"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:maxLength="1" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:gravity="center"
+            android:hint="@string/choose_fizzbuzz"
+            android:id="@+id/fizz"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:maxLength="@integer/max_length_textinput_6"
+            android:maxLines="@integer/max_length_number_input_one" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/linearLayout11"
+        android:layout_height="@dimen/component_layout_height"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_s"
+        app:layout_constraintBottom_toTopOf="@+id/limit"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout12">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:gravity="center"
+            android:hint="@string/choose_second_int"
+            android:id="@+id/second_int"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:maxLength="@integer/max_length_number_input_one" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:gravity="center"
+            android:hint="@string/choose_fizzbuzz"
+            android:id="@+id/buzz"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:maxLength="@integer/max_length_textinput_6"
+            android:maxLines="@integer/max_length_number_input_one" />
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:gravity="center"
+        android:hint="@string/choose_limit"
+        android:id="@+id/limit"
+        android:imeOptions="actionDone"
+        android:inputType="number"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:text="@string/hello_first_fragment"
-        app:layout_constraintBottom_toTopOf="@id/button_first"
+        android:maxLength="@integer/max_length_limit_input_three"
+        app:layout_constraintBottom_toTopOf="@+id/button_first"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout11" />
 
     <Button
         android:id="@+id/button_first"
+        android:insetBottom="0dp"
+        android:insetTop="0dp"
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_width="match_parent"
+        android:padding="0dp"
         android:text="@string/next"
+        app:cornerRadius="0dp"
+        app:elevation="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_first" />
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
