@@ -8,8 +8,8 @@
 
 ## UPDATE
 
-- Main is not is not up to date, it contains the V1 version.
-- Check Fizzbuzz-count-with-coroutines-and-pager the new V.2 version implements coroutines and pager for more efficiency.
+- **Main is not is not up to date**, it contains the V1 version.
+- Check **Fizzbuzz-count-with-coroutines-and-pager** the new V.2 version implements coroutines and pager for more efficiency.
 
 ## Description
 
