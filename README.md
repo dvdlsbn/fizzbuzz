@@ -9,7 +9,7 @@
 ## UPDATE
 
 - **Main is not is not up to date**, it contains the V1 version.
-- Check **Fizzbuzz-count-with-coroutines-and-pager**.The new V.2 version implements coroutines and pager for more efficiency.
+- Check **Fizzbuzz-count-with-coroutines-and-pager**.The new V2 version implements coroutines and pager for more efficiency.
 
 ## Description
 
