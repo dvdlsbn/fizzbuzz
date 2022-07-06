@@ -26,9 +26,9 @@ Cute App that consists in writing all numbers from 1 to 100, and just replacing 
 
 ## Goals
 
-- Ready for production, stablized application with no crash whatsoever.
-- Easy to read, formatted and self explanatory code.
-- Tested, parameterized tests with more than 800 runs.
+- [x] Ready for production, stablized application with no crash whatsoever.
+- [x] Easy to read, formatted and self explanatory code.
+- [x] Tested, parameterized tests with more than 800 runs.
 
 ## The result
 ### Choices
