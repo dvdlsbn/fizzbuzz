@@ -38,7 +38,7 @@ Cute App that consists in writing all numbers from 1 to 100, and just replacing 
 - Parametrized tests: to multiply the scenarios.
 - Mockk : makes easy to mock extensions function.
 
-### improvable
+### Improvable
 
 - Automatic scroll down to last number in the list
 - larger numbers
