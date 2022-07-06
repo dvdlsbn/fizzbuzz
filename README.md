@@ -1,4 +1,4 @@
-#FIZZBUZZ
+# FIZZBUZZ
 
 <div align="center">
   <kbd>
