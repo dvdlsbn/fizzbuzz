@@ -15,8 +15,8 @@
 
 Cute App that consists in writing all numbers from 1 to 100, and just replacing :
 
-- All multiples of 3 by "fizz",
-- All multiples of 5 by "buzz",
+- All multiples of 3 by "fizz"
+- All multiples of 5 by "buzz"
 - And all multiples of 15 by "fizzbuzz"
 
 ## Features
@@ -38,12 +38,12 @@ Cute App that consists in writing all numbers from 1 to 100, and just replacing 
 - Parametrized tests: to multiply the scenarios.
 - Mockk : makes easy to mock extensions function.
 
-### improvable
+### Improvable
 
-- Automatic scroll down to last number in the list
-- larger numbers
+- Automatic scroll down to last number in the list.
+- larger numbers.
 - More rules : the two integers/strings have to be different, special characters filter, etc.
 - More tests : more coverage, instrumented tests.
-- Strings traduction
+- Strings traduction.
 - A prettier app.
 - A module Data including room and maybe a Firebase back-end. 
